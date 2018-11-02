@@ -22,25 +22,38 @@ const mergedResults = coverageMerger.mergeByFile(coverageResults);
 ## API
 The API includes the following:
 - mergeByFile(coverageResults)
+- mergeBy(coverageResults, grouper)
 - merge(coverageResults)
 
 ### mergeByFile(coverageResults)
-Merges coverage results which are results for the same file.
+Merges coverage results which have the same value for the `file` property.
 
 #### coverageResults
 Type: `Array<CoverageResult`. See below.
+
+#### returns
+Type: `Array<CoverageResult`. See below.
+
+### mergeBy(coverageResults, grouper)
+Merges coverage results for which the `grouper` iteratee returns the same string See [_.groupBy](https://lodash.com/docs#groupBy).
+
+#### coverageResults
+Type: `Array<CoverageResult`. See below.
+
+#### grouper
+Type: `(CoverageResult) => String`. See below.
 
 #### returns
 Type: `Array<CoverageResult`. See below.
 
 ### merge(coverageResults)
-Merges coverage results.
+Merges an array of coverage results to a single result.
 
 #### coverageResults
 Type: `Array<CoverageResult`. See below.
 
 #### returns
-Type: `Array<CoverageResult`. See below.
+Type: `CoverageResult`. See below.
 
 ### CoverageResult
 The returned data has the following format.
