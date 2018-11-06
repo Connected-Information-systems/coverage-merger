@@ -1,0 +1,207 @@
+[
+  {
+    "title": "Test #1.1",
+    "file": "/some/absolute/path/file1.js",
+    "functions": {
+      "hit": 2,
+      "found": 3,
+      "details": [
+        {
+          "name": "function1",
+          "line": 10,
+          "hit": 6
+        },
+        {
+          "name": "function2",
+          "line": 30,
+          "hit": 3
+        },
+        {
+          "name": "function3",
+          "line": 60,
+          "hit": 0
+        }
+      ]
+    },
+    "lines": {
+      "found": 5,
+      "hit": 4,
+      "details": [
+        {
+          "line": 10,
+          "hit": 6
+        },
+        {
+          "line": 11,
+          "hit": 6
+        },
+        {
+          "line": 12,
+          "hit": 0
+        }, {
+        "line": 13,
+        "hit": 6
+        }, {
+        "line": 14,
+        "hit": 6
+        }
+      ]
+    },
+    "branches": {
+      "found": 2,
+      "hit": 1,
+      "details": [
+        {
+          "line": 10,
+          "branch": 0,
+          "taken": 0
+        },
+        {
+          "line": 10,
+          "branch": 1,
+          "taken": 1
+        }
+      ]
+    }
+  },
+  {
+    "title": "Test #1.2",
+    "file": "/some/absolute/path/file1.js",
+    "functions": {
+      "hit": 2,
+      "found": 3,
+      "details": [
+        {
+          "name": "function1",
+          "line": 10,
+          "hit": 5
+        },
+        {
+          "name": "function2",
+          "line": 30,
+          "hit": 2
+        },
+        {
+          "name": "function3",
+          "line": 60,
+          "hit": 1
+        }
+      ]
+    },
+    "lines": {
+      "found": 5,
+      "hit": 4,
+      "details": [
+        {
+          "line": 10,
+          "hit": 2
+        },
+        {
+          "line": 11,
+          "hit": 3
+        },
+        {
+          "line": 22,
+          "hit": 4
+        }, {
+          "line": 23,
+          "hit": 0
+        }, {
+          "line": 24,
+          "hit": 20
+        }
+      ]
+    },
+    "branches": {
+      "found": 2,
+      "hit": 1,
+      "details": [
+        {
+          "line": 10,
+          "branch": 0,
+          "taken": 2
+        },
+        {
+          "line": 10,
+          "branch": 1,
+          "taken": 1
+        },
+        {
+          "line": 11,
+          "branch": 0,
+          "taken": 5
+        },
+        {
+          "line": 11,
+          "branch": 1,
+          "taken": 6
+        }
+      ]
+    }
+  },
+  {
+    "title": "Test #2",
+    "file": "/some/absolute/path/file2.js",
+    "functions": {
+      "hit": 2,
+      "found": 3,
+      "details": [
+        {
+          "name": "function1",
+          "line": 10,
+          "hit": 6
+        },
+        {
+          "name": "function2",
+          "line": 30,
+          "hit": 3
+        },
+        {
+          "name": "function3",
+          "line": 60,
+          "hit": 0
+        }
+      ]
+    },
+    "lines": {
+      "found": 5,
+      "hit": 4,
+      "details": [
+        {
+          "line": 10,
+          "hit": 6
+        },
+        {
+          "line": 11,
+          "hit": 6
+        },
+        {
+          "line": 12,
+          "hit": 0
+        }, {
+          "line": 13,
+          "hit": 6
+        }, {
+          "line": 14,
+          "hit": 6
+        }
+      ]
+    },
+    "branches": {
+      "found": 2,
+      "hit": 1,
+      "details": [
+        {
+          "line": 10,
+          "branch": 0,
+          "taken": 0
+        },
+        {
+          "line": 10,
+          "branch": 1,
+          "taken": 1
+        }
+      ]
+    }
+  }
+]

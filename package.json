@@ -4,7 +4,7 @@
   "description": "Library for merging parsed coverage reports.",
   "main": "lib/merger.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/test.js"
   },
   "keywords": [
     "coverage",
@@ -25,5 +25,9 @@
   },
   "dependencies": {
     "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
   }
 }

@@ -1,0 +1,93 @@
+{
+  "title": "Test #2",
+  "file": "/some/absolute/path/file2.js",
+  "lines": {
+    "found": 8,
+    "hit": 6,
+    "details": [
+      {
+        "line": 10,
+        "hit": 14
+      },
+      {
+        "line": 11,
+        "hit": 15
+      },
+      {
+        "line": 12,
+        "hit": 0
+      },
+      {
+        "line": 13,
+        "hit": 12
+      },
+      {
+        "line": 14,
+        "hit": 12
+      },
+      {
+        "line": 22,
+        "hit": 4
+      },
+      {
+        "line": 23,
+        "hit": 0
+      },
+      {
+        "line": 24,
+        "hit": 20
+      }
+    ]
+  },
+  "functions": {
+    "found": 3,
+    "hit": 3,
+    "details": [
+      {
+        "name": "function1",
+        "line": 10,
+        "hit": 17
+      },
+      {
+        "name": "function2",
+        "line": 30,
+        "hit": 8
+      },
+      {
+        "name": "function3",
+        "line": 60,
+        "hit": 1
+      }
+    ]
+  },
+  "branches": {
+    "found": 4,
+    "hit": 4,
+    "details": [
+      {
+        "line": 10,
+        "block": 0,
+        "branch": 0,
+        "taken": 2
+      },
+      {
+        "line": 10,
+        "block": 0,
+        "branch": 1,
+        "taken": 3
+      },
+      {
+        "line": 11,
+        "block": 0,
+        "branch": 0,
+        "taken": 5
+      },
+      {
+        "line": 11,
+        "block": 0,
+        "branch": 1,
+        "taken": 6
+      }
+    ]
+  }
+}
