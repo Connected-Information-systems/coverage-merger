@@ -4,7 +4,7 @@
   "description": "Library for merging parsed coverage reports.",
   "main": "lib/merger.js",
   "scripts": {
-    "test": "mocha test/test.js"
+    "test": "nyc mocha test/test.js"
   },
   "keywords": [
     "coverage",
@@ -28,6 +28,7 @@
   },
   "devDependencies": {
     "chai": "^4.2.0",
-    "mocha": "^5.2.0"
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0"
   }
 }
